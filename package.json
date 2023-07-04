@@ -1,0 +1,58 @@
+{
+  "name": "memstats",
+  "version": "1.0.0",
+  "description": "A small tool for checking memory usage of a node.js process",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --runInBand",
+    "test-cov": "jest --verbose --runInBand --coverage"
+  },
+  "author": "Oleh Chaplia",
+  "license": "MIT",
+  "keywords": [
+    "memstats",
+    "memory",
+    "heap",
+    "process",
+    "system",
+    "os",
+    "tools",
+    "utilities",
+    "utils"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ochaplia/memstats"
+  },
+  "engines": {
+    "npm": ">=9.5.1",
+    "node": ">=16.20.1"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node",
+    "collectCoverage": false,
+    "collectCoverageFrom": [
+      "lib/**/*.js"
+    ],
+    "coverageDirectory": ".coverage",
+    "coverageReporters": [
+      "lcov"
+    ],
+    "globals": {
+      "NODE_ENV": "test",
+      "JEST_USE_BASENAME_FOR_CACHING": false
+    },
+    "modulePathIgnorePatterns": [
+      "node_modules/"
+    ],
+    "roots": [
+      "<rootDir>/lib/",
+      "<rootDir>/tests/"
+    ],
+    "cacheDirectory": "<rootDir>/.jestcache"
+  }
+}
