@@ -31,9 +31,9 @@ This will print the object with statistics:
 
 ```json
 {
-  maxMemoryAvailable: '4.04 Gb',
-  processMemoryUsed: '48.59 MB',
-  uptime: '0 min'
+  "maxMemoryAvailable": "4.04 Gb",
+  "processMemoryUsed": "48.59 MB",
+  "uptime": "0 min"
 }
 ```
 
