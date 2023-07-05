@@ -1,6 +1,6 @@
 {
   "name": "memstats",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A small tool for checking memory usage of a Node.js process",
   "main": "index.js",
   "scripts": {
