@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/memstats.svg)](https://badge.fury.io/js/memstats)
+[![npm version](https://badge.fury.io/js/memstats@2x.png)](https://badge.fury.io/js/memstats)
 [![CodeQL](https://github.com/ochaplia/memstats/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/ochaplia/memstats/actions/workflows/github-code-scanning/codeql)
 [![Build Status](https://app.travis-ci.com/ochaplia/memstats.svg?branch=master)](https://travis-ci.org/ochaplia/memstats)
 
